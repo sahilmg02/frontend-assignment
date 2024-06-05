@@ -1,0 +1,115 @@
+.partner-div1{
+    padding-bottom: 7rem;
+}
+.p4{
+    margin-top: -1%;
+    padding-bottom: 1rem;
+}
+.partner-card{
+    border-radius: 20px;
+    padding: 23px;
+    width: 75%;
+    height: 24.5rem;
+    border: none;
+}
+.partner-col1{
+    border-radius: 50%;
+}
+.partner-col2{
+    position: absolute;
+    right: 5%;
+}
+.partner-main{
+    border-radius: 10px;
+    height: 21rem;
+    width: auto;
+}
+.play{
+    position: absolute;
+    left: 29.5%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    height: 50px;
+    width: 52px;
+}
+.partner-logo{
+    height: 57px;
+    width: 59px;
+    border-radius: 50%;
+}
+.name{
+    margin-left: 1.5rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+.partner-row{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 2rem;
+}
+.quote{
+    height: 36px;
+    width: 38px;    
+}
+.partner-p{
+    width: 100%;
+}
+.arrow{
+    margin-top: 2rem;
+    font-size: 45px;
+    color: #0078FF;
+    border: 1px solid #0078FF;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+@media screen and (max-width: 500px) {
+    .partner-div1{
+        padding-bottom: 4rem;
+    }
+    .partner-card{
+        padding: 15px;
+        width: 100%;
+        height: 30rem;
+    }    
+.partner-col2{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0%;
+    top:50%
+}
+
+.partner-main{
+    border-radius: 10px;
+    height: 14rem;
+    width: 100%;
+}
+.play{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    height: 44px;
+    width: 46px;
+}
+.partner-logo{
+    height: 40px;
+    width: 43px;
+    border-radius: 50%;
+}
+.name{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top:16%;
+}
+.quote{
+    height: 30px;
+    width: 32px;    
+}
+}

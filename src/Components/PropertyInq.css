@@ -1,0 +1,104 @@
+.property-div1{
+    padding-bottom: 5rem;
+}
+.property-row{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.proprtyimg{
+    width: auto;
+    height:21.5rem;
+}
+.newtitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+.newp{
+    font-size: 24px;
+    font-weight: 400;
+}
+.property-btn{
+    margin-top: 0.2rem;
+    border-radius: 200px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.property-row1{
+    padding-top: 1rem;
+}
+.card3{
+    background-color: #ffffff;
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+
+.card3-p1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card3-p{
+    text-align: center;
+    font-size: 24px;
+    width: 106%;
+    font-weight: 400;
+}
+.cardimg3{
+    height: 128px;
+    width: 128px;
+    background-color: #F9F9F9;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .property-div1{
+        padding-bottom: 3rem;
+    }
+    .newtitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .newp{
+        margin-top: -2%;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .property-row1{
+        padding-top: 0;
+    }
+    .property-row{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    .proprtyimg{
+        position: relative;
+        left: 10%;
+        width: auto;
+        height:13.5rem;
+        margin-bottom: 2rem;
+    }
+    .property-btn{
+        position: relative;
+        left: 27%;
+        width: 45%;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .card3-p1{
+        padding-top: 1rem;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .card3-p{
+        text-align: center;
+        font-size: 18px;
+        width: 106%;
+        font-weight: 400;
+    }
+    .newp{
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

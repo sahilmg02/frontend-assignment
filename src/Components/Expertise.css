@@ -1,0 +1,95 @@
+.expertise-div1{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+.expertise-row1{
+    margin-top: 1.5rem;
+}
+.expertise-row2{
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.card4{
+    background-color: #ffffff;
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+.cardimg4{
+    height: 128px;
+    width: 128px;
+    background-color: #F9F9F9;
+    border-radius: 50%;
+    padding: 15px;
+}
+.cardimg4 img {
+    border-radius: 0; 
+    object-fit: cover;
+  }
+  .card4-p1{
+    font-size: 24px;
+    font-weight: 700;
+  }
+.card4-p{
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    font-weight: 400;
+}
+.card4-p2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 70%;
+    position: relative;
+    left: 16%;
+    margin-top: -1%;
+    padding-bottom: 1rem;
+}
+.expertise-btn{
+    border-radius: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 20%;
+    height: 12%;    
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .expertise-div1{
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .expertise-row1{
+        margin-top: 0rem;
+    }
+    .expertise-row2{
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+    .card4-p1{
+        text-align: center;
+        font-size: 18px;
+      }
+      .card4-p{
+        text-align: center;
+        font-size: 18px;
+        width: 105%;
+    }
+    .card4-p2{
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        margin-top: -4%;
+        padding-bottom: 0.2rem;
+    }
+    .expertise-btn{
+        font-weight: 600;
+        font-size: 18px;
+        width: 50%;
+        height: 12%;    
+    }
+}
